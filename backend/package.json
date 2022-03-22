@@ -1,0 +1,20 @@
+{
+  "name": "az-ad-backend-sls",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "sls offline"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.3.2",
+    "passport-azure-ad": "^4.2.1",
+    "serverless": "^3.2.1",
+    "serverless-offline": "0.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
